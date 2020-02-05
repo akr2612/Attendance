@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Jun 17 2018
+Created on 04-02-2020
 
-@author: Ashish Kumar
+@author: Anurag Kumar
 """
 
 import tkinter as tk
@@ -252,7 +252,7 @@ quitWindow = tk.Button(window, text="Quit", command=window.destroy  ,fg="red"  ,
 quitWindow.place(x=1100, y=500)
 copyWrite = tk.Text(window, background=window.cget("background"), borderwidth=0,font=('times', 30, 'italic bold underline'))
 copyWrite.tag_configure("superscript", offset=10)
-copyWrite.insert("insert", "Developed by Ashish","", "TEAM", "superscript")
+copyWrite.insert("insert", "Developed by AnuragKumar","", "TEAM UTD", "superscript")
 copyWrite.configure(state="disabled",fg="red"  )
 copyWrite.pack(side="left")
 copyWrite.place(x=800, y=750)
